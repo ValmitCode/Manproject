@@ -1,0 +1,17 @@
+.create {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #aaa;
+    padding: 10px;
+    background-color: #fefefe;
+}
+
+@media (max-width: 1100px) {
+    
+}
+
+@media (min-width: 1101px) {
+
+}

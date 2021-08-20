@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "node app.js",
+    "dev-server": "nodemon app.js",
+    "dev": "concurrently \"cd client && yarn start\" \"yarn run dev-server\"",
+    "dev-npm": "concurrently \"cd client && npm start\" \"npm run dev-server\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

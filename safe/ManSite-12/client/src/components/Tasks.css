@@ -1,0 +1,33 @@
+.tasks {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #aaa;
+    padding: 10px;
+    background-color: #fefefe;
+}
+
+@media (max-width: 1100px) {
+
+}
+
+@media (min-width: 1101px) {
+    .tasks ul {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .tasks li {
+        display: block;
+        margin-top: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #bbb;
+        border-radius: 30px;
+        padding: 20px;
+        font-size: 1.2em;
+        background-color: #efefef;
+    }
+}

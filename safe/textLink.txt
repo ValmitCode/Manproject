@@ -1,0 +1,2 @@
+/home/valmit/Downloads/Мітін/MAN_code/src/serveru.py
+/home/valmit/Documents/src/ManSite_vseukr/client
